@@ -8,7 +8,6 @@ export const ActionButton = styled.button`
 
 	&:hover {
 		cursor: pointer;
-		background-color: #fa7924;
-		color: #fff;
+		background-color:  #3a3a3a;
 	}
 `;

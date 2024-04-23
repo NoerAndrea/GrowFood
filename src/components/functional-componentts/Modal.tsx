@@ -11,10 +11,14 @@ import { ModalButton } from "../styled-components/Modal/ModalButton";
 
 interface ModalProps{
     title: string;
+    //corpo
     children?: React.ReactNode;
     textButtonConfirm:string;
+    //abrir modal
     isOpen: boolean;
+    //ativar botão fechar
     actionClose: ()=>void;
+    //ativar botão confirmar
     actionConfirm: ()=>void;
 }
 
